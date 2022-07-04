@@ -18,7 +18,6 @@ function App() {
       >
         Añadir lista de tareas
       </button>
-
       <div className="listoftodolist">
         {todos.map((value, index) => {
           return (
